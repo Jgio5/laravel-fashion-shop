@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index')->name('pagina-home');
+Route::get('/', 'MainController@index')->name('pagina-home');
 
-Route::get('/vestiti', 'HomeController@vestiti')->name('pagina-vestiti');
+Route::get('/vestiti', 'MainController@dresses')->name('pagina-vestiti');
 
-Route::get('/info', 'HomeController@info')->name('pagina-info');
+Route::get('/info', 'MainController@info')->name('pagina-info');

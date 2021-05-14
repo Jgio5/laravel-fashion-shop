@@ -2,7 +2,9 @@
     <div class="container">
         <div class="top-header">
             <div class="logo">
-                <img src="img/logo-nike.jpg" alt="">
+                <a href="{{ route('pagina-home')}}">
+                    <img src="img/logo-nike.jpg" alt="Logo nike">
+                </a>
             </div>
     
             <div class="nav">

@@ -65,6 +65,25 @@ main h1 {
     height: 100%;
 }
 
+/* Dresses */
+.row-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
 /* footer */
  footer {
     position: absolute;
@@ -98,3 +117,8 @@ footer .nav a {
     color: grey;
 }
 
+/* Hover - dresses */
+.row-box .box:hover {
+    background-color: black;
+    color: white;
+}
